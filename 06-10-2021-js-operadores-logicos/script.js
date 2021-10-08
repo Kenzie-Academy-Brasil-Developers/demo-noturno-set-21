@@ -63,3 +63,61 @@ let podeDirigirEAR = experiencia >= 2                       //false
 
     
 // console.log(podeDirigirEAR); // retornará false
+
+/**
+ * Estruturas de decisão
+ * SE...SENÃO => if...else
+ */
+let condicao = idade >= 18
+
+if (condicao) {
+    //Se a condição for atendida, entrará aqui
+    // console.log("Maior de idade");
+} else {
+    //Senão, entrará aqui
+    // console.log("Menor de idade");
+}
+
+/**
+ * Estruturas de decisão
+ * SE...SENÃO SE...SENÃO => if...else if...else
+ */
+if (idade >= 18) {
+    //Se a condição for atendida, entrará aqui
+    // console.log("Adulto");
+} else if (idade >= 14 && idade < 18) {
+    //Senão, se for entre 13 e 18 entrará aqui
+    // console.log("Adolescente");
+} else {
+    //Senão, entrará aqui
+    // console.log("Criança")
+}
+
+/**
+ * Estruturas de decisão
+ * Diferença entre encadear IF/ELSE ou fazer IFs separados
+ * compare as duas soluções
+ */
+
+let VIP = true;
+let podeEntrar = false;
+
+// if (podeEntrar === true) {
+//     console.log("Pode entrar");
+// } else if (VIP === true) {
+//     console.log("é VIP")  
+// } else {
+//     console.log("Não pode entrar")
+// }
+
+// if (podeEntrar === true) {
+//     console.log("Pode entrar");
+// }
+// if (VIP === true) {
+//     console.log("é VIP")  
+// } 
+// if (podeEntrar === false) {
+//     console.log("Não pode entrar")
+// }
+
+
