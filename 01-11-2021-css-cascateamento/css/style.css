@@ -1,0 +1,63 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+/* html {
+    font-size: 12px;
+}
+
+body {
+    color: orange;
+}
+
+div {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem
+} */
+
+/**
+ * inline, ID, Classe, Elemento
+ * 0 0 0 1
+ */
+/* 
+.special {
+    color: blue;
+} */
+
+/**
+ * inline, ID, Classe, Elemento
+ * 0 0 1 0
+ */
+/*  
+#unique {
+    color: pink;
+} */
+
+/**
+ * inline, ID, Classe, Elemento
+ * 0 1 0 0
+ */
+
+
+ /**
+ * inline, ID, Classe, Elemento
+ * 1 0 0 0
+ */
+/* 
+.conteiner {
+    background-color: chocolate;
+    width: 90vw; /*viewport width
+    height: 90vh;/*viewport height
+} */
+/* #myBox {
+    background-color: green;
+    height: 30%;
+    width: 100%;
+} */
