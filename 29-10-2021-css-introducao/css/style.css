@@ -1,0 +1,29 @@
+/* <seletor> {
+    <propriedade>: <valor>;
+} */
+
+/*
+ * Seletor de tag
+ */
+h2 {
+    color: green;
+    font-size: 120px;
+}
+
+/*
+ * Seletor de ID
+ */
+#titulo-especial {
+    color: red;
+    font-size: 5px;
+}
+
+/*
+ * Seletor de Classe
+ */
+.pequeno-texto {
+    color: orange;
+    font-size: 15px
+}
+
+
