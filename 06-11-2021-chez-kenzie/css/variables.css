@@ -1,0 +1,9 @@
+:root {
+    font-size: 8px;
+    --vermelho-background: #610A0B;
+    --laranja-destaque: #C23A25;
+
+    --fonte-bitter: 'Bitter', serif;
+    --fonte-josefin-sans: 'Josefin Sans', sans-serif;
+    --fonte-playfair: 'Playfair Display', serif;
+}
