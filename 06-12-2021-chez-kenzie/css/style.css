@@ -1,0 +1,103 @@
+/** CABECALHO **/
+
+.cabecalho {
+    height: 72px;
+    width: 100%;
+    background-color: var(--vermelho-background);
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    filter: drop-shadow(0px 1px 1px #000000);
+}
+
+.cabecalho__logo span {
+    font-family: var(--fonte-playfair);
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.nav {
+    font-size: 2.5rem;
+}
+
+.lista-menu {
+    display: flex;
+    list-style: none;
+}
+
+.lista-menu__item {
+    margin: 0 14px;
+}
+
+.lista-menu__item a {
+    font-family: var(--fonte-bitter);
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+.lista-menu__item--destaque a{
+    background-color: var(--laranja-destaque);
+    letter-spacing: 0.2rem;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+
+/** BANNER **/
+
+.banner {
+    background: url("./../assets/img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.banner__intro {
+    font-size: 8rem;
+    color: #FFF;
+    font-family: var(--fonte-playfair);
+    font-weight: bold;
+    width: 700px;
+    position: relative;
+    display: flex;
+}
+
+.banner__intro::after {
+    content: "";
+    background-color: #FFF;
+    height: 6px;
+    width: 50%;
+    position: absolute;
+    bottom: -24px;
+}
+
+.banner__button {
+    border: none;
+    padding: 12px 24px;
+    background-color: var(--laranja-destaque);
+    color: #FFF;
+    font-family: var(--fonte-bitter);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.banner__button:hover {
+    cursor: pointer;
+}
+
+.banner__icon {
+    position: absolute;
+    bottom: 24px;
+    align-self: center;
+}
