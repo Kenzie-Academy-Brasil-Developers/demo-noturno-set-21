@@ -1,6 +1,8 @@
 :root {
     font-size: 8px;
-    --vermelho-background: #610A0B;
+
+    --vermelho-primario: #610A0B;
+    --vermelho-corpo-texto: #8D3132;
     --laranja-destaque: #C23A25;
 
     --fonte-bitter: 'Bitter', serif;
