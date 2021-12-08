@@ -142,3 +142,30 @@
     color: var(--vermelho-corpo-texto);
     text-align: center;
 }
+
+/** SOBRE-NOS **/
+
+.sobre-nos {
+    display: flex;
+    background-color: var(--amarelo-secundario);
+}
+
+.sobre-nos__info {
+    flex-basis: 400px;
+    margin: 80px 0 80px 226px;
+}
+
+.sobre-nos__titulo {
+    font-family: var(--fonte-playfair);
+    color: var(--vermelho-primario);
+    font-size: 6rem;
+    margin: 0;
+    max-width: 100%;
+}
+
+.sobre-nos__conteudo {
+    margin-top: 48px;
+    font-family: var(--fonte-bitter);
+    font-size: 3rem;
+    color: var(--vermelho-corpo-texto);
+}
