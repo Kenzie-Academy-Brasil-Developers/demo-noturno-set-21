@@ -169,3 +169,44 @@
     font-size: 3rem;
     color: var(--vermelho-corpo-texto);
 }
+
+/** CONTATO **/
+.contato {
+    display: flex;
+}
+
+.contato__info {
+    flex-basis: 588px;
+    display: flex;
+    flex-direction: column;
+}
+.contato__titulo {
+    align-self: flex-end;
+    font-family: var(--fonte-playfair);
+    color: var(--vermelho-primario);
+    font-size: 6rem;
+    margin:0;
+}
+
+.contato__endereco {
+    text-align: right;
+}
+
+.contato__mapa img {
+    max-height: 360px;
+    max-width: 400px;
+    margin-left: 226px;
+}
+
+.endereco__titulo {
+    font-size: 3rem;
+    color: var(--vermelho-primario);
+    font-weight: bold;
+    font-family: var(--fonte-bitter);
+}
+
+.endereco__lista {
+    color: var(--vermelho-corpo-texto);
+    font-family: var(--fonte-bitter);
+    font-size: 2rem;
+}
