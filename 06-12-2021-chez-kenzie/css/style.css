@@ -3,7 +3,7 @@
 .cabecalho {
     height: 72px;
     width: 100%;
-    background-color: var(--vermelho-background);
+    background-color: var(--vermelho-primario);
     color: #FFF;
     display: flex;
     justify-content: space-between;
@@ -100,4 +100,45 @@
     position: absolute;
     bottom: 24px;
     align-self: center;
+}
+
+/** CARDAPIO **/
+.lista-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.cardapio__titulo {
+    margin-top: 80px;
+    width: 100%;
+    font-size: 6rem;
+    text-align: center;
+    color: var(--vermelho-primario);
+    font-family: var(--fonte-playfair);
+}
+
+.card {
+    flex-basis: 284px;
+}
+
+.card__imagem img {
+    width: 284px;
+    height: 284px;
+}
+
+.card__titulo {
+    text-align: center;
+    font-weight: 600;
+    color: var(--vermelho-primario);
+    font-family: var(--fonte-josefin);
+    font-size: 3rem;
+}
+
+.card__conteudo {
+    margin-top: 20px;
+    font-family: var(--fonte-josefin);
+    font-size: 2rem;
+    color: var(--vermelho-corpo-texto);
+    text-align: center;
 }

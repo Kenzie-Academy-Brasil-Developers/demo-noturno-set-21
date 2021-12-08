@@ -1,0 +1,29 @@
+.sublinhado {
+    max-width: 220px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.sublinhado::after {
+    content: "";
+    background-color: white;
+    width: 33%;
+    height: 5px;
+    position: absolute;
+    bottom: -12px;
+}
+
+.sublinhado--vermelho::after {
+    background-color: var(--vermelho-primario);
+}
+
+.sublinhado--esquerda {
+    justify-content: flex-start;
+}
+
+.sublinhado--direita {
+    justify-content: flex-end;
+}
+
