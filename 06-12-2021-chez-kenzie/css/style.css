@@ -169,3 +169,72 @@
     font-size: 3rem;
     color: var(--vermelho-corpo-texto);
 }
+
+/** CONTATO **/
+.contato {
+    padding-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+}
+
+.contato__info {
+    flex-basis: 588px;
+    display: flex;
+    flex-direction: column;
+}
+.contato__titulo {
+    margin-bottom: 80px;
+    align-self: flex-end;
+    font-family: var(--fonte-playfair);
+    color: var(--vermelho-primario);
+    font-size: 6rem;
+    margin:0;
+}
+
+.contato__endereco {
+    margin-top: 60px;
+    text-align: right;
+}
+
+.contato__mapa img {
+    max-height: 360px;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-left: 226px;
+}
+
+.endereco__titulo {
+    font-size: 3rem;
+    color: var(--vermelho-primario);
+    font-weight: bold;
+    font-family: var(--fonte-bitter);
+}
+
+.endereco__lista {
+    color: var(--vermelho-corpo-texto);
+    font-family: var(--fonte-bitter);
+    font-size: 2rem;
+}
+
+.endereco__lista li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.endereco__lista li img {
+    text-align: center;
+    margin-left: 8px;
+}
+
+footer {
+    background-color: var(--vermelho-primario);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 2rem;
+    font-family: var(--fonte-bitter);
+}
