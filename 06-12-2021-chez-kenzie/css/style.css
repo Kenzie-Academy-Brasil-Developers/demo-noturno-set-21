@@ -53,7 +53,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    padding-left: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -61,6 +60,7 @@
 }
 
 .banner__intro {
+    margin-left: 120px;
     font-size: 8rem;
     color: #FFF;
     font-family: var(--fonte-playfair);
@@ -80,6 +80,7 @@
 }
 
 .banner__button {
+    margin-left: 120px;
     border: none;
     padding: 12px 24px;
     background-color: var(--laranja-destaque);
@@ -103,6 +104,10 @@
 }
 
 /** CARDAPIO **/
+.cardapio {
+    margin-bottom: 80px;
+}
+
 .lista-card {
     display: flex;
     justify-content: space-around;
