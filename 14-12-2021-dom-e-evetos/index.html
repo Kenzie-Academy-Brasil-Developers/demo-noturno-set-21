@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom e Eventos</title>
+
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Lojinha do DOM
+        </h1>
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <section class="content-products">
+                <h2>Produtos</h2>
+
+                <div class="products" id="products-display">
+                    <div class="card card-product">
+                        <h3>Produto Azul</h3>
+                        <p>Produto que tem a cor azul</p>
+                        <p class="preco">R$ 1,99</p>
+                        <button id="addProdutoAzul">Adicionar ao carrinho</button>
+                    </div>
+                    <div class="card card-product">
+                        <h3>Produto Vermelho</h3>
+                        <p>Produto que tem a cor vermelho</p>
+                        <p class="preco">R$ 1,99</p>
+                        <button id="addProdutoVermelho">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+               
+            </section>
+
+            <section class="content-form">
+                <form action="" id="formCriarUsuario">
+                    <h2>Criar Card de Produto</h2>
+
+                    <label for="nomeDoProduto">Nome:</label>
+                    <input type="text" name="nomeDoProduto" id="inputNomeDoProduto" placeholder="Nome do produto">
+
+                    <label for="descricaoDoProduto">Descrição:</label>
+                    <input type="text" name="descricaoDoProduto" id="inputDescricaoDoProduto" placeholder="Descrição do produto">
+                    
+                    <label for="precoDoProduto">Preço:</label>
+                    <input type="text" name="precoDoProduto" id="inputPrecoDoProduto" placeholder="Preço do produto">
+
+                    <input type="submit" value="Criar Novo Produto" id="inputEnviar">
+                </form>
+            </section>
+
+
+            <section class="content-bubbling">
+                <table>
+                    <tr>
+                        <th>Título</th>
+                        <td><button id="botaoBubbling">Teste Bubbling</button></td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+    </footer>
+    
+    <script src="./src/script.js"></script>
+</body>
+</html>
