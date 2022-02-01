@@ -1,0 +1,155 @@
+/* body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+
+/* header */
+header{
+    background-color: aquamarine;
+    height: 60px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+
+/* main */
+main{}
+
+main .container{
+    margin: 0 auto;
+    width: 70%;
+}
+
+main .container .content-products{
+    text-align: center;
+    margin-top: 20px;
+}
+
+main .container .content-products h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+main .container .content-products .products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main .container .content-products .products .card-product{
+    background-color:dodgerblue;
+    color: aliceblue;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+}
+main .container .content-products .card-product h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+main .container .content-products .card-product p{
+    margin: 10px 0;
+}
+main .container .content-products .card-product .preco{
+    margin: 10px 0;
+    color: lightyellow;
+    font-weight: 600;
+}
+main .container .content-products .card-product  button{
+    border: none;
+    width: 170px;
+    height: 50px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: ease-in-out 300ms;
+}
+
+main .container .content-products .card-product  button:hover{
+    color: aliceblue;
+    background-color:dimgrey;
+    cursor: pointer;
+}
+
+main .container .content-form{
+    background-color:aquamarine;
+    color: black;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+
+main .container .content-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .container .content-form form h2{
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+main .container .content-form form label{
+    display: none;
+}
+
+main .container .content-form form input[type="text"]{
+    margin-bottom: 10px;
+    width: 200px;
+    height: 25px;
+}
+
+main .container .content-form form input[type="submit"]{
+    border: none;
+    background-color:dimgrey;
+    color: aliceblue;
+    width: 170px;
+    height: 50px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: ease-in-out 300ms;
+}
+
+main .container .content-form form input[type="submit"]:hover{
+    background-color:aliceblue;
+    color: black;
+    cursor: pointer;
+}
+
+
+main .container .content-bubbling{
+    margin: 20px auto;
+    width: 250px;
+}
+
+main .container .content-bubbling table{
+    border: 1px solid black;
+    width: 250px;
+}
+
+main .container .content-bubbling table tr{}
+
+main .container .content-bubbling table tr th{
+    border: 1px solid black;
+
+}
+main .container .content-bubbling table tr td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+/* footer */
+footer{}
